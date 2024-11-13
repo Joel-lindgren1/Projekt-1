@@ -1,0 +1,28 @@
+body{
+grid-template-columns: 40% 30% 40%;
+display: grid;
+}
+
+.back{
+grid-column: 1/1;
+margin: 15%;
+}
+
+.pasta{
+grid-column: 3/3;
+border: solid 5px black;
+}
+
+.mat{
+grid-column: 1/1;
+width: 50%;
+height: auto;
+border: solid 5px black;
+}
+
+.instruktioner{
+grid-column: 3/3;
+border: solid 5px black;
+
+
+}
